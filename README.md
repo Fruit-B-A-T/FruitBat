@@ -1,1 +1,1 @@
-<a src="home.html">Go to site</a>
+<a href="home.html">Go to site</a>
