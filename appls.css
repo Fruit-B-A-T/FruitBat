@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background:url("https://cdn.vox-cdn.com/thumbor/2DR26iFOZXxeuobIMHbmw_vja4U=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19993898/shutterstock_117762442.jpg") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+ margin-bottom: 10px;
+ margin-top: 10px; 
+ height: 500px;  
+}
+header img{
+    height: 500px;
+}
+#navbar{
+    height: 100px;
+    width: fit-content;
+    margin: auto;
+}
+article{
+    padding: 2px;
+    
+
+}
+footer{
+    background: url(https://felixinstruments.com/app/uploads/2021/05/istock-6419249401.jpg) fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+#navbar ul{
+   overflow: auto;
+}
+#navbar ul li{
+    float: left;
+    list-style:none;
+    margin: 13px 20px;
+}
+#navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+#navbar li a :hover{
+    color: rgb(200, 30, 10);
+}
+footer #people{
+    float: right;
+    padding-left: 25px;
+}
+#wrapper{
+    display: flex;
+    margin-left: 10px;
+}
+.m_content{
+    margin-left: 10px;
+}
+.grow :not(:hover){
+    transition: all .2s ease-in-out;
+}
+.grow :hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.25);
+}
+.navrap{
+    width: fit-content;
+}
+.background-wrapper{
+    background-color: rgba(231, 212, 148, 0.938);
+    border: solid 4px rgb(78, 80, 102);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+/* Home products */
+@keyframes phover{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        content: url(Images/rawberrrrrre.png);
+    }
+}
+@keyframes puhover{
+    0%{
+        opacity: 1;
+        content: url(Images/rawberrrrrre.png);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        content: url(https://www.whenistheseason.com/wp-content/uploads/2020/03/strawberry-season.png);
+    }
+}
+.strawpowder{
+    height: 500px;  
+}
+.powdrap{
+    width: 500px;
+    height: 500px;
+}
+.prap .strawpowder{
+    transition: transform .5s linear; 
+    animation: puhover ease-in-out .5s forwards;    
+}
+.prap :hover .strawpowder{
+    transform: rotate3d(0,1,0,360deg);
+    animation: phover ease-in-out .5s forwards;   
+}
+/* Home About */
+.rightfloat{
+    float: right;
+}
+.rightfloat .purptext{
+    float: right;
+    margin: 2vw;
+}
+.purprap img{
+    height: 500px;
+    margin-right: 80px;
+}
+.purprap :hover{
+    transition: all .5s ease-in-out;
+    transform: rotate(360deg);
+}
+/* Home About */
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.usrap{
+    margin-top: 500px;
+    margin-left: 2vw;
+}
+.usimg{
+    height: 500px;
+    margin-top: 30px;
+}
+.urap :hover{
+    animation: bounce ease-in-out .5s 2 ;
+}
+
