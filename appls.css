@@ -109,11 +109,11 @@ footer #people{
     }
 }
 .strawpowder{
-    height: 13vh;  
+    height: 36.6vw;  
 }
 .powdrap{
     width: 36.6vw;
-    height: 13vh;
+    height: 36.6vw;
 }
 .prap .strawpowder{
     transition: transform .5s linear; 
@@ -132,7 +132,7 @@ footer #people{
     margin: 2vw;
 }
 .purprap img{
-    height: 13vh;
+    height: 36.6vw;
     margin-right: 5.8vw;
 }
 .purprap :hover{
@@ -156,7 +156,7 @@ footer #people{
     margin-left: 2vw;
 }
 .usimg{
-    height: 13vh;
+    height: 36.6vw;
     margin-top: 30px;
 }
 .urap :hover{
