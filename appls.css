@@ -13,10 +13,10 @@ body{
 header{
  margin-bottom: 10px;
  margin-top: 10px; 
- height: 17vh;  
+ height: 65vh;  
 }
 header img{
-    height: 17vh;
+    height: 65vh;
 }
 #navbar{
     height: 100px;
