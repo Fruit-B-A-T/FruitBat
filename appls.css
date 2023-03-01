@@ -51,6 +51,7 @@ footer{
     padding: 3px 3px;
     text-decoration: none;
     color: black;
+    font-size:7vw;
 }
 #navbar li a :hover{
     color: rgb(200, 30, 10);
